@@ -16,3 +16,5 @@ p="1"
 q="1"
 r=p+q
 print(r)
+val3= input("enter a food name : ")
+print ("apple") if val3 == "apple" or val3 == "banana" else print("banana")
