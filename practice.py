@@ -17,4 +17,5 @@ q="1"
 r=p+q
 print(r)
 val3= input("enter a food name : ")
-print ("apple") if val3 == "apple" or val3 == "banana" else print("banana")
+
+print(val3 if val3 in ["apple", "banana"] else "something else")
